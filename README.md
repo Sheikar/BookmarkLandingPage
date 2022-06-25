@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/Sheikar/bookmarkLandingPage.git)
-- Live Site URL: [Live site](https://sheikar.github.io/bookmarkLandingPage/)
+- Solution URL: [Solution](https://github.com/Sheikar/BookmarkLandingPage.git)
+- Live Site URL: [Live site](https://sheikar.github.io/BookmarkLandingPage/)
 
 ## My process
 

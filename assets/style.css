@@ -1390,8 +1390,8 @@ footer, .footer {
   }
  
   .scroll-up nav {
-    background: rgba(0, 0, 0, 0.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    background: transparent;
+    box-shadow: none;
     width: 100%;
     top: 0;
     left: unset;

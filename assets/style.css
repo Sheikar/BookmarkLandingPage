@@ -291,12 +291,10 @@ header {
 .feature-tabs ul {
   border-bottom: var(--tab-border);
   margin: 2em 5px;
-  /*margin-bottom: 4em;*/
   margin-bottom: 3em;
 }
 
 .feature-tabs ul li {
- /* height: 20vh;*/
  width: 85vw;
  max-width: 350px;
  color: var(--gray-blue);
@@ -321,8 +319,6 @@ header {
   justify-content: space-around;
   align-items: center;
   height: 300%;
-  /*height: 60%;*/
-/* height: 240vh;*/
   width: 100%;
   position: relative;
   transform: translateY(0%);
@@ -666,28 +662,16 @@ input[type = "email"]::placeholder {
   opacity: 0;
 }
 
-/*input:invalid ~ p, form:invalid .error {
-  opacity: 1;
-  
-}
-
-form:invalid input {
-  padding: 1em 1.5em;
-}
-
-form:invalid div {
-  background: var(--soft-red);
-  margin-bottom: 1em;
-}
-*/
 .invalid input ~ p, .invalid .error {
   opacity: 1;
 }
+
 .invalid input {
   padding: 1em 1.5em;
 }
+
 .invalid div {
-  background: var(--soft-red);
+  background: var(--soft-red) !important;
   margin-bottom: 1em;
 }
 
@@ -1425,32 +1409,30 @@ footer, .footer {
 }
 
 
-@media (min-width: 1024px) {
-	
-	.download .download-btn button {
+@media (min-width: 980px) {
+  .download .download-btn button {
     padding: 1em 2vw;
     font-size: 1vw;
-	  
-	}	
+  }	
   
   .download img {
-		width: 5em;
+    width: 5em;
     
   }
   
   .info h3 {
-		font-size: 1.7vw;
+    font-size: 1.7vw;
     
   }
   
   .download .info {
-		height: 45px;
-		margin-top: 1em;
+    height: 45px;
+    margin-top: 1em;
     
   }
   
   .info p {
-		font-size: 1.2vw;
+    font-size: 1.2vw;
     
   }
   

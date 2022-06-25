@@ -513,9 +513,9 @@ hr {
 
 .questions ul li div:first-of-type {
   flex-direction: row;
-  width: 88%;
+  width: 90%;
   margin: 1em 3px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
 }
 

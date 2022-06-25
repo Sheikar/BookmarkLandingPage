@@ -141,4 +141,7 @@ function validateForm (e) {
     e.preventDefault();
     form.classList.add('invalid');
   }
+  setTimeout(function() {
+    form.classList.remove('invalid')
+  }, 3000);
 }

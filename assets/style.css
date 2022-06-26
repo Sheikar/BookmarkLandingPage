@@ -571,6 +571,7 @@ hr {
 .answer {
   text-align: left;
   width: 86%;
+  font-size: 15px;
   color: var(--gray-blue);
   line-height: 1.8;
   max-height: 0;
